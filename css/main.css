@@ -1,0 +1,55 @@
+body {
+  background: #f5f5f5;
+}
+.youtube-container {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.youtube-container .youtube-content {
+  padding: 15px;
+  background-color: #ffffff;
+  float: left;
+  width: 100%;
+}
+.youtube-container .youtube-content .channel-title {
+  margin: 0;
+  padding-top: 5px;
+}
+.youtube-container .youtube-content .channel-title a {
+  color: #000000;
+  font-weight: 400;
+}
+.youtube-container .youtube-content .youtube-channel {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.youtube-container .youtube-content .youtube-channel .youtube-thumbnail {
+  border-top: 1px solid #dddddd;
+  float: left;
+  margin-bottom: 12.5px;
+  width: 100%;
+}
+.youtube-container .youtube-content .youtube-channel .youtube-thumbnail .title {
+  line-height: 19px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.youtube-container .youtube-content .youtube-channel .youtube-thumbnail .date {
+  font-size: 16px;
+}
+.youtube-container .youtube-content .youtube-channel .youtube-thumbnail.first {
+  border-top: 0;
+}
+.youtube-container .youtube-content .youtube-frame {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .youtube-container .youtube-content .youtube-channel .youtube-thumbnail .date {
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+}
